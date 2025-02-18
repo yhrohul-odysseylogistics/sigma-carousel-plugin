@@ -19,6 +19,7 @@ const CarouselPlugin = () => {
   };
 
   // Use Sigma data if available, fallback to sample slides
+  // Test comment to check netlify
   const sigmaData = plugin?.context?.data || [
     { id: 1, text: "Slide 1", color: "#ff6b6b" },
     { id: 2, text: "Slide 2", color: "#1dd1a1" },
